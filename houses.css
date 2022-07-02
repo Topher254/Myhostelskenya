@@ -1,0 +1,72 @@
+.logo{
+    position:relative;
+    border-radius: 50%;
+}
+.section1{
+    background-color: rgb(192, 248, 245);
+    padding: 10px;
+}
+.divforpic{
+    background-color: beige;
+    display: flex;
+}
+.img{
+    border-radius: 8px;
+}
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 300px;
+    height: 300px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.head{
+    color: rgb(12, 169, 161);
+    text-decoration: wavy;
+    font-size: 35px;
+}
+.h3{
+    color: rgba(17, 31, 18, 0.729);
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
